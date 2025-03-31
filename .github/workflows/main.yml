@@ -15,6 +15,5 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.2.1
-          bundler-cache: true
       - name: Run rspec tests
         run: bundle exec rspec spec/features/dice_spec.rb
